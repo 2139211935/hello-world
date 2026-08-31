@@ -13,7 +13,7 @@ if (-not (Test-Path -LiteralPath $src)) {
 
 New-Item -ItemType Directory -Path $dst -Force | Out-Null
 
-foreach ($sub in "原子库", "概念库", "笔记库") {
+foreach ($sub in "原子库", "概念库", "笔记库", "附件") {
     $s = Join-Path $src $sub
     $d = Join-Path $dst $sub
     if (Test-Path -LiteralPath $s) {
