@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 530" width="1060" height="530">
+  <defs>
+    <g id="arrow"><path d="M -12 -3.5 L 0 0 L -12 3.5 Z" fill="#000000"/></g>
+  </defs>
+
+  <text x="30" y="24" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">STM32F1 时钟树（RCC）</text>
+
+  <!-- sources: stroke black -->
+  <rect x="30"  y="44"  width="120" height="48" rx="4" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <text x="90"  y="64"  font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">HSE</text>
+  <text x="90"  y="80"  font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">8 MHz 晶振</text>
+
+  <rect x="30"  y="144" width="120" height="48" rx="4" fill="#ffffff" stroke="#000000" stroke-width="2.5"/>
+  <text x="90"  y="164" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">HSI</text>
+  <text x="90"  y="180" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">8 MHz RC</text>
+
+  <rect x="30"  y="356" width="120" height="48" rx="4" fill="#ffffff" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="90"  y="376" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">LSE</text>
+  <text x="90"  y="392" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">32.768 kHz</text>
+
+  <rect x="30"  y="438" width="120" height="48" rx="4" fill="#ffffff" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="90"  y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">LSI</text>
+  <text x="90"  y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">40 kHz</text>
+
+  <!-- main path: stroke blue -->
+  <rect x="205" y="50"  width="120" height="48" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="265" y="79" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">PLL ×9</text>
+
+  <rect x="200" y="150" width="150" height="54" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="275" y="172" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">源选择</text>
+  <text x="275" y="188" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">MUX</text>
+
+  <rect x="400" y="150" width="130" height="54" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="465" y="173" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">SYSCLK</text>
+  <text x="465" y="189" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">72 MHz</text>
+
+  <rect x="560" y="150" width="140" height="54" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="630" y="173" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">AHB ÷1</text>
+  <text x="630" y="189" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">HCLK 72 MHz</text>
+
+  <rect x="730" y="96"  width="150" height="54" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="805" y="119" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">APB2 ÷1</text>
+  <text x="805" y="135" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">PCLK2 72 MHz</text>
+
+  <rect x="730" y="260" width="150" height="54" rx="4" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="805" y="283" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">APB1 ÷2</text>
+  <text x="805" y="299" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">PCLK1 36 MHz</text>
+
+  <!-- peripheral groups: stroke green -->
+  <rect x="900" y="84"  width="140" height="72" rx="4" fill="#ffffff" stroke="#009E73" stroke-width="2.5"/>
+  <text x="970" y="114" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">ADC / GPIO</text>
+  <text x="970" y="130" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">USART1</text>
+
+  <rect x="900" y="250" width="140" height="72" rx="4" fill="#ffffff" stroke="#009E73" stroke-width="2.5"/>
+  <text x="970" y="280" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">USART2 / I2C</text>
+  <text x="970" y="296" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">CAN / TIM</text>
+
+  <!-- aux: RTC / IWDG stroke orange -->
+  <rect x="205" y="356" width="120" height="48" rx="4" fill="#ffffff" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="265" y="384" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">RTC</text>
+
+  <rect x="205" y="438" width="130" height="48" rx="4" fill="#ffffff" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="270" y="458" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">IWDG</text>
+  <text x="270" y="474" font-family="Microsoft YaHei, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#000000">独立看门狗</text>
+
+  <!-- connectors -->
+  <g stroke="#000000" stroke-width="1.5" fill="none">
+    <path d="M150,68 L180,68 L180,74 L205,74"/>
+    <path d="M150,168 L178,168 L178,177 L200,177"/>
+    <path d="M265,98 L265,150"/>
+    <path d="M350,177 L400,177"/>
+    <path d="M530,177 L560,177"/>
+    <path d="M700,177 L708,177 L708,123 L730,123"/>
+    <path d="M700,177 L720,177 L720,287 L730,287"/>
+    <path d="M880,120 L900,120"/>
+    <path d="M880,287 L900,287"/>
+    <path d="M150,380 L205,380"/>
+    <path d="M150,462 L205,462"/>
+  </g>
+
+  <!-- arrows (tip at translate point, aligned to line direction) -->
+  <use href="#arrow" transform="translate(205,74)  rotate(0)"/>
+  <use href="#arrow" transform="translate(200,177) rotate(0)"/>
+  <use href="#arrow" transform="translate(265,150) rotate(90)"/>
+  <use href="#arrow" transform="translate(400,177) rotate(0)"/>
+  <use href="#arrow" transform="translate(560,177) rotate(0)"/>
+  <use href="#arrow" transform="translate(730,123) rotate(0)"/>
+  <use href="#arrow" transform="translate(730,287) rotate(0)"/>
+  <use href="#arrow" transform="translate(900,120) rotate(0)"/>
+  <use href="#arrow" transform="translate(900,287) rotate(0)"/>
+  <use href="#arrow" transform="translate(205,380) rotate(0)"/>
+  <use href="#arrow" transform="translate(205,462) rotate(0)"/>
+</svg>

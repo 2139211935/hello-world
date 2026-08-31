@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>知识小屋</title>
+      <link>https://2139211935.github.io/hello-world</link>
+      <description>最近的10条笔记 on 知识小屋</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>知识小屋 · 首页</title>
+    <link>https://2139211935.github.io/hello-world/</link>
+    <guid>https://2139211935.github.io/hello-world/</guid>
+    <description><![CDATA[ 知识小屋 一个用 Quartz 发布的三层笔记知识库（原子 / 概念 / 笔记）。从下面进入，或用右上角搜索、图谱浏览。 笔记库 STM32 · 核心外设与协议 —— 从芯片到通信协议的学习地图 信号完整性 —— 从第一性原理讲清信号如何”完整” 大学物理下册 —— 罗圆圆《大学物理学》下 概念库（示例） 传输线 —— 波形式传播的互连介质 时钟系统 RCC —— STM32 的复位与时钟控制 原子库（示例） 特征阻抗 Z0 —— 行波电压电流之比，反射的法尺 说明：本库采用”三层三库 + 概念轴 dataview 聚合”组织。原子点只讲一件事，概念页自动聚合名下原子点，笔记页按角度串点叙事。... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:29:12 GMT</pubDate>
+  </item><item>
+    <title>001-时钟系统 RCC</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/STM32/001-%E6%97%B6%E9%92%9F%E7%B3%BB%E7%BB%9F-RCC</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/STM32/001-%E6%97%B6%E9%92%9F%E7%B3%BB%E7%BB%9F-RCC</guid>
+    <description><![CDATA[ 001 时钟系统 RCC：芯片的心脏节拍 笔记定位 从一个”芯片为什么要有一堆时钟、它们怎么从源头一路派发到每个外设”的角度，串起 时钟系统 RCC 概念下的 时钟源、PLL 锁相环倍频、时钟树与源选择、AHB APB 分频总线、外设时钟门控使能 五个原子点。落地到 STM32F1（72MHz 口径）。 用到的原子点（按顺序） 时钟源 —— 节拍从哪来，四类源的本性与取舍 PLL 锁相环倍频 —— 把慢而准的源放大到 CPU 全速 时钟树与源选择 —— 同一时刻主时钟只认一路，如何选、怎么切、用 MCO 实测 AHB APB 分频总线 —— 把高速主干降速分给各域，定时器例外 外设时钟门控使能... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>大学物理下册目录</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C%E7%9B%AE%E5%BD%95</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C%E7%9B%AE%E5%BD%95</guid>
+    <description><![CDATA[ 大学物理下册 · 目录 罗圆圆《大学物理学》下册：热学、振动与波动、波动光学、量子物理（第 11–16 章）。 概念页在 00-知识库/概念库/、原子点在 00-知识库/原子库/，多未建立，建到即通。 第十一章 气体动理论 气体动理论的基本概念 平衡态理想气体物态方程 理想气体的压强公式 理想气体的温度公式 能量按自由度均分原理 理想气体的内能 麦克斯韦速率分布定律 玻耳兹曼分布律 气体分子的平均自由程 气体的输运现象（*） 范德瓦耳斯方程（*） 第十二章 热力学基础 热力学第一定律 热力学第一定律的等值过程应用 绝热过程 循环过程 卡诺循环 热力学第二定律 可逆与不可逆过程 卡诺定理 热力学... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>00-说明</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/00-%E8%AF%B4%E6%98%8E</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/00-%E8%AF%B4%E6%98%8E</guid>
+    <description><![CDATA[ 笔记库 · 使用说明 本库存放笔记：从一个角度/叙事出发，把分散在 00-知识库/原子库/ 的原子分点重新串联成一篇可读的成文。它是三库中的”成品层” —— 原子点是积木，概念页是把积木按”属于谁”装箱，笔记是把积木按”要讲的故事”拼起来。 笔记 ≠ 概念 —— 分界铁律 概念（概念库）＝名词本体/分类锚点：一个既定名词（如 特征阻抗、反射、串扰），只聚合导航，不写叙事正文。回答”这个概念有哪些点”。 笔记（本库）＝成文/叙事：一段要被人读的连贯文章，可跨概念把原子点按逻辑重排，有自己的观点、顺序、衔接。回答”我要从这个角度讲清一件事该串哪些点”。 命名规则：概念名必须是名词；出现”为什么/如... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>时钟系统 RCC</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E6%97%B6%E9%92%9F%E7%B3%BB%E7%BB%9F-RCC</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E6%97%B6%E9%92%9F%E7%B3%BB%E7%BB%9F-RCC</guid>
+    <description><![CDATA[ 时钟系统 RCC 概念定位 RCC（Reset and Clock Control，复位与时钟控制）是 STM32 内部负责时钟源选择、倍频分频与总线时钟分发的控制模块，覆盖时钟源（HSE/HSI/LSE/LSI）、时钟树与源选择、PLL 倍频、AHB/APB 分频总线、外设时钟门控使能等原子点。它决定整颗芯片以什么频率”跳动”。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 时钟系统 RCC 的原子点，不手列。 状态日期原子点待完善2026-08-31AHB APB 分频总线待完善2026-08-31PLL 锁相环倍频待完善2026-08-31外设时... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>特征阻抗</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</guid>
+    <description><![CDATA[ 特征阻抗 概念定位 特征阻抗 Z_0 是传输线在无反射/匹配前提下呈现的固有阻抗（约 \sqrt{L_0/C_0}），只取决于线的分布参数、与负载无关；是反射系数与终端匹配的基准。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 特征阻抗 的原子点，不手列。 状态日期原子点待完善2026-08-30特征阻抗 Z0 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 特征阻抗 引用本概念，即自动出现在此表。 file.link反射系数传输线反射特征阻抗000-目录 相关概念 传输线 反射 端接与匹配 . ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>传输线</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E4%BC%A0%E8%BE%93%E7%BA%BF</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E4%BC%A0%E8%BE%93%E7%BA%BF</guid>
+    <description><![CDATA[ 传输线 概念定位 传输线是以波动形式传播信号、用分布参数（单位长度电感/电容/电阻/电导）描述的互连介质；涵盖特征阻抗、传播时延、反射等由其波属性衍生的一切现象。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 传输线 的原子点，不手列。 状态日期原子点待完善2026-08-30传播时延待完善2026-08-30传输线模型 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 传输线 引用本概念，即自动出现在此表。 file.link传输线特征阻抗 相关概念 特征阻抗 反射 . ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>反射</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</guid>
+    <description><![CDATA[ 反射 概念定位 反射是信号在传输线上遇到阻抗不连续时，一部分入射能量折返回来源的现象；覆盖反射系数、多次反射、驻波与反射导致的波形畸变。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 反射 的原子点，不手列。 状态日期原子点待完善2026-08-30反射系数 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 反射 引用本概念，即自动出现在此表。 file.link传输线反射特征阻抗000-目录 相关概念 特征阻抗 端接与匹配 . ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:28:37 GMT</pubDate>
+  </item><item>
+    <title>000-目录</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/STM32/000-%E7%9B%AE%E5%BD%95</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/STM32/000-%E7%9B%AE%E5%BD%95</guid>
+    <description><![CDATA[ STM32 · 目录 从芯片外设到通信协议的 STM32 学习地图。逻辑分两条：先把”芯片本身能干什么”（核心外设）摸清，再打通”怎么和外界对话”（协议/总线）。 每条点击跳转到对应内容（部分尚未建立，建到即通）。 一、核心外设 001-时钟系统 RCC 001 —— 时钟树与 HSE/HSI/PLL 倍频分频 002-中断系统 NVIC-EXTI 002 —— 中断向量与嵌套优先级 003-GPIO 输入输出 003 —— 模式配置与推挽/开漏 004-定时器 TIM 004 —— 基本/通用/高级定时器与计数/比较/捕获 005-PWM 输出 005 —— 脉宽调制中的占空比生成 006-... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 13:27:35 GMT</pubDate>
+  </item><item>
+    <title>AHB APB 分频总线</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/AHB-APB-%E5%88%86%E9%A2%91%E6%80%BB%E7%BA%BF</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/AHB-APB-%E5%88%86%E9%A2%91%E6%80%BB%E7%BA%BF</guid>
+    <description><![CDATA[ AHB/APB 分频总线 一句话定义 AHB/APB 分频器把系统时钟 SYSCLK 按固定系数逐级降频，得到 HCLK、PCLK1、PCLK2 三大总线时钟，让不同速度的总线域与外设各自拿到匹配的节拍。 定性 先给你一幅能”减速”的画面。你在山顶有一个压力很大的蓄水池，水压大得能推动大发电机（AHB），但山脚下一些小车间根本抵不住那么猛的冲击，得先装”减压阀”把水压降下来才敢进。于是你把一根主干分成几路：一路直接进 AHB 高速区（水压原封不动），一路过一挡”减压阀”进 APB2（降一点），再一路过两挡”减压阀”进 APB1（降更多）。每一个减压阀，就是一个分频器：它把进来的频率除以一个整数... ]]></description>
+    <pubDate>Mon, 31 Aug 2026 12:47:39 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
