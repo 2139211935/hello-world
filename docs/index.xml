@@ -6,6 +6,18 @@
       <description>最近的10条笔记 on 知识小屋</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>反射</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</guid>
+    <description><![CDATA[ 反射 概念定位 反射是信号在传输线上遇到阻抗不连续时，一部分入射能量折返回来源的现象；覆盖反射系数、多次反射、驻波与反射导致的波形畸变。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 反射 的原子点，不手列。 状态日期原子点待完善2026-08-30反射系数 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 反射 引用本概念，即自动出现在此表。 file.link传输线反射特征阻抗 相关概念 特征阻抗 端接与匹配 . ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:46:29 GMT</pubDate>
+  </item><item>
+    <title>特征阻抗</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</guid>
+    <description><![CDATA[ 特征阻抗 概念定位 特征阻抗 Z_0 是传输线在无反射/匹配前提下呈现的固有阻抗（约 \sqrt{L_0/C_0}），只取决于线的分布参数、与负载无关；是反射系数与终端匹配的基准。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 特征阻抗 的原子点，不手列。 状态日期原子点待完善2026-08-30特征阻抗 Z0 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 特征阻抗 引用本概念，即自动出现在此表。 file.link反射系数传输线反射特征阻抗 相关概念 传输线 反射 端接与匹配 . ]]></description>
+    <pubDate>Mon, 31 Aug 2026 16:46:29 GMT</pubDate>
+  </item><item>
     <title>00-说明</title>
     <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/00-%E8%AF%B4%E6%98%8E</link>
     <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/00-%E8%AF%B4%E6%98%8E</guid>
@@ -52,18 +64,6 @@
     <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%97%B6%E9%92%9F%E6%A0%91%E4%B8%8E%E6%BA%90%E9%80%89%E6%8B%A9</link>
     <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%97%B6%E9%92%9F%E6%A0%91%E4%B8%8E%E6%BA%90%E9%80%89%E6%8B%A9</guid>
     <description><![CDATA[ 时钟树与源选择 一句话定义 时钟树是时钟系统中从时钟源一路分发到各总线域与外设的路线图；源选择（MUX）把 SYSCLK 在主时钟源（HSE/HSI/PLL）之间切换，选定谁给 CPU 供节拍。 定性 先给你一幅能”走通”它的图。想象一个自来水厂，有好几个进水口（HSI、HSE、PLL 各是一根水管），但它们最终都要汇到一根主出水干管，这跟干管就是 SYSCLK（系统主时钟）。问题来了：多根进水管，到底哪根往 V 里流？就用一个”换向阀”（MUX 多路选择器），你拧一下，它就把主出水干管接通到某一根进水口上——同一时刻，主水管里的水只能来自一个口，不能两路混着灌。换向阀之后，这根主干再被一道道... ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:31:00 GMT</pubDate>
-  </item><item>
-    <title>时钟源</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%97%B6%E9%92%9F%E6%BA%90</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%97%B6%E9%92%9F%E6%BA%90</guid>
-    <description><![CDATA[ 时钟源 HSE/HSI 一句话定义 时钟源是 STM32 产生基准节拍的源头，分内部 RC（HSI、LSI）与外部晶振（HSE、LSE）两类，为系统总线、PLL 与外设提供振荡频率。 定性 先给你一幅能”听见”的画面。想象一支交响乐队，每位乐手都必须跟着同一个节拍器演奏，否则鼓敲各的、弦拉各的，整首曲子立刻乱套。STM32 就是那支乐队，里面几百个门电路、寄存器、外设就是乐手，而时钟源就是那个节拍器——它给整颗芯片一个统一的”嗒、嗒、嗒”，所有事情踩在这节拍上发生。这个节拍有多稳、有多快，直接决定芯片能跑多稳、多快。时钟源在时钟系统里的位置是最上游的源头：它往下喂给 PLL 锁相环倍频，再经 ... ]]></description>
-    <pubDate>Mon, 31 Aug 2026 16:31:00 GMT</pubDate>
-  </item><item>
-    <title>特征阻抗 Z0</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97-Z0</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97-Z0</guid>
-    <description><![CDATA[ 特征阻抗 Z0 一句话定义 特征阻抗 Z_0 是传输线上行波电压与行波电流之比的固有常数，用来刻画波在没有反射时每前进一步遇到的”电压电流比例”。 定性 先给一幅让你”看见”的画面。设想一段平整的水渠，水流平稳地往前淌。你在水渠边架一把尺子，随便挑一处测”水位多高、水速多快”。如果你问的不是某个具体时刻，而是这渠水”一整段流得稳不稳”这个本性，你就会发现：水深与水速之比，基本由渠的形状和底质决定，跟你从哪一段量、量多长没太大关系。一段上好的、宽窄均匀的渠，比例恒定；一旦渠底收窄或突然加宽，这个”比例感”就会在变处出岔子，激起波浪。这个”由渠道本身决定、与后续哪一段无关”的比例，就是特征阻抗在传... ]]></description>
     <pubDate>Mon, 31 Aug 2026 16:31:00 GMT</pubDate>
   </item>
     </channel>
