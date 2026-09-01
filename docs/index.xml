@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on 知识小屋</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>样本空间</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4</guid>
-    <description><![CDATA[ 样本空间 一句话定义 样本空间是一个随机试验全部可能结果所成的集合，记作 \Omega，其中每个结果称为一个样本点 \omega。 定性 给一个随机现象做”全盘点”。掷一枚骰子之前，先别管这次是几点，而是把”这次可能出现的一切”摊开：1、2、3、4、5、6。这六样东西摆在一起，就是一个集合——它囊括了这次试验所有的下场，一个不多、一个不少。这个集合，就叫样本空间 \Omega。 它就像一份”可能性账单”。掷骰子是 \{1,2,3,4,5,6\}，抛硬币是 \{正, 反\}，抽一张扑克是从 A 到 K 的整套牌。它把”下次到底出什么”这个让人心痒的问题，翻译成了一件干净的事：下次的结果只会从这张... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
-  </item><item>
-    <title>随机事件</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6</guid>
-    <description><![CDATA[ 随机事件 一句话定义 随机事件是样本空间 \Omega 的一个子集，记作 A；一次试验的结果落入 A，就说事件 A 发生。 定性 把”关心的情况”装进一个袋子。掷骰子，你未必在乎”到底是 2 还是 3”，你可能只关心”出现偶数”。而”出现偶数”落在样本空间 \{1,2,3,4,5,6\} 里，正好是 \{2,4,6\} 这一小撮——一个子集。这个子集，就是随机事件。它回答的是”这次结果落在我关心的那一撮里面没有”这类问题。 它像手持一张”中奖清单”。样本空间是全文品可能出现的全部结果，事件是你愿意给它打勾的那一撮。打勾的结果来了，事件就”发生”；没打勾的来了，事件就”没发生”。所以”随机”二字... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
-  </item><item>
-    <title>随机事件的关系与运算</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB%E4%B8%8E%E8%BF%90%E7%AE%97</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%85%B3%E7%B3%BB%E4%B8%8E%E8%BF%90%E7%AE%97</guid>
-    <description><![CDATA[ 随机事件的关系与运算 一句话定义 随机事件的关系与运算，是在同一个样本空间 \Omega 上，用集合的包含、相等、并、交、差、补等运算把事件连接、组合出新事件的规则，把事件语言翻译成集合运算。 定性 把事件当成”积木”，运算是”接法”。“出偶数”和”出大于 3”两个事件，能不能拼成新问题？能——“出偶数或大于 3”、“出偶数且大于 3”、“不出偶数”。这三句话，正是把”或&quot;&quot;且&quot;&quot;非”翻译成集合的 \cup、\cap、补。事件的关系与运算干的就是这碗饭：把人类口水话的连接词，换成数学里一套干净、无歧义的集合规则。 它像一套”事件电路图”。你手上有若干开关... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
-  </item><item>
-    <title>随机现象与随机试验</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E7%8E%B0%E8%B1%A1%E4%B8%8E%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%8E%9F%E5%AD%90%E5%BA%93/%E9%9A%8F%E6%9C%BA%E7%8E%B0%E8%B1%A1%E4%B8%8E%E9%9A%8F%E6%9C%BA%E8%AF%95%E9%AA%8C</guid>
-    <description><![CDATA[ 随机现象与随机试验 一句话定义 随机现象是重复试验下每次结果无法预先确定、但整体遵循统计规律的现象；随机试验是对这类现象进行的可重复观察，其所有可能结果构成样本空间。 定性 先让”什么叫随机”在眼前立起来。闭上眼睛想一颗骰子：你把它抛出去，在它落定之前，全世界没有人能说准这一次会出现几点。这就是随机现象——单次结果说不准。可奇怪的是，你要是把它抛一万次，数一数”六”出现了多少次，会发现大约是一万次的六分之一，稳得像一堵墙。单次乱到没法猜，大量却善到有谱，这正是随机现象最让人迷的地方。 它和”确定性现象”分属两个世界。确定性现象是给你条件就能算准结果：水在标准大气压下一百度沸腾，你拧开手电筒它会... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
-  </item><item>
-    <title>00-说明</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/00-%E8%AF%B4%E6%98%8E</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/00-%E8%AF%B4%E6%98%8E</guid>
-    <description><![CDATA[ 概念库 · 使用说明 本库存放概念 MOC（地图）页：一个概念一个文件，是”重内聚”的中枢 —— 用 dataview 把分散在 00-知识库/原子库/ 的原子点自动聚合起来，并反向列出引用了本概念的主题索引（00-知识库/笔记库）。自身不承载完整知识点正文，只做聚合与导航。 概念 ≠ 主题索引 —— 分界铁律 概念（本库）＝名词本体/分类锚点：一个既定名词（如 特征阻抗、反射、串扰、抖动、眼图），只聚合导航，不写叙事正文。回答”这个概念有哪些原子点”。 主题索引（笔记库）＝聚合入口/货架：按一个主题/角度把相关原子点列出来，只列不展开。回答”这个主题拢了哪些点”。讲清道理靠原子点自身的”讲懂... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
-  </item><item>
-    <title>反射</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%8F%8D%E5%B0%84</guid>
-    <description><![CDATA[ 反射 概念定位 反射是信号在传输线上遇到阻抗不连续时，一部分入射能量折返回来源的现象；覆盖反射系数、多次反射、驻波与反射导致的波形畸变。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 反射 的原子点，不手列。 状态日期原子点待完善2026-08-30反射系数 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 反射 引用本概念，即自动出现在此表。 file.link传输线反射特征阻抗 相关概念 特征阻抗 端接与匹配 . ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
+    <title>平衡态</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%B9%B3%E8%A1%A1%E6%80%81</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E5%B9%B3%E8%A1%A1%E6%80%81</guid>
+    <description><![CDATA[ 平衡态 概念定位 平衡态是热力学系统在不受外界影响时，宏观性质不随时间改变的状态；覆盖平衡态的定义、热动平衡、弛豫时间与状态参量，是物态方程、压强公式、温度公式等一切宏观定律成立的前提。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 平衡态 的原子点，不手列。 状态日期原子点进行中2026-09-01平衡态 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 平衡态 引用本概念，即自动出现在此表。 file.link状态参量理想气体真实气体统计规律输运现象平衡态理想气体物态方程玻耳兹曼分布律理想气体微观模型假设统计规律与等几率假设大... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
   </item><item>
     <title>样本空间</title>
     <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4</link>
     <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4</guid>
     <description><![CDATA[ 样本空间 概念定位 样本空间是一个随机试验所有可能结果构成的集合，记作 \Omega。它覆盖：随机试验与随机现象、样本空间的定义与三种表示法（列举/描述/图示）、样本点、以及它如何作为随机事件的”全集”容器。 原子点库（自动重内聚） 下方由 dataview 自动聚合，从 原子库 拉取 concept = 样本空间 的全部原子点，不手列。 状态日期原子点进行中2026-09-01样本空间进行中2026-09-01随机现象与随机试验 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 样本空间 引用本概念，即自动出现在此表。 file.link随机事件随机事件的关系与运算 相... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
   </item><item>
     <title>特征阻抗</title>
     <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</link>
     <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%89%B9%E5%BE%81%E9%98%BB%E6%8A%97</guid>
     <description><![CDATA[ 特征阻抗 概念定位 特征阻抗 Z_0 是传输线在无反射/匹配前提下呈现的固有阻抗（约 \sqrt{L_0/C_0}），只取决于线的分布参数、与负载无关；是反射系数与终端匹配的基准。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 特征阻抗 的原子点，不手列。 状态日期原子点待完善2026-08-30特征阻抗 Z0 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 特征阻抗 引用本概念，即自动出现在此表。 file.link传输线反射特征阻抗反射系数 相关概念 传输线 反射 端接与匹配 . ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
+  </item><item>
+    <title>状态参量</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%8A%B6%E6%80%81%E5%8F%82%E9%87%8F</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%8A%B6%E6%80%81%E5%8F%82%E9%87%8F</guid>
+    <description><![CDATA[ 状态参量 概念定位 状态参量是描述气体宏观平衡状态的压强、体积、温度这三个物理量；覆盖状态参量的定义、单位、量纲与三者的相互联系，是理想气体物态方程 pV=νRT 的构成基础。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 状态参量 的原子点，不手列。 状态日期原子点进行中2026-09-01状态参量 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 状态参量 引用本概念，即自动出现在此表。 file.link平衡态理想气体真实气体统计规律平衡态理想气体物态方程理想气体微观模型假设范德瓦耳斯方程大学物理下册目录 相关概念 平衡态 ... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
+  </item><item>
+    <title>理想气体</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%90%86%E6%83%B3%E6%B0%94%E4%BD%93</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%90%86%E6%83%B3%E6%B0%94%E4%BD%93</guid>
+    <description><![CDATA[ 理想气体 概念定位 理想气体是忽略分子体积与分子间相互作用力、唯保留碰撞的简化微观模型；覆盖理想气体的微观模型假设，锚定压强公式、温度公式、内能、能量均分与麦克斯韦速率分布等后续原子点。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 理想气体 的原子点，不手列。 状态日期原子点进行中2026-09-01平衡态理想气体物态方程进行中2026-09-01气体分子的平均自由程进行中2026-09-01理想气体微观模型假设进行中2026-09-01理想气体的内能进行中2026-09-01理想气体的压强公式进行中2026-09-01理想气体的温度公式 引用本概念... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
+  </item><item>
+    <title>统计规律</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%BB%9F%E8%AE%A1%E8%A7%84%E5%BE%8B</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E7%BB%9F%E8%AE%A1%E8%A7%84%E5%BE%8B</guid>
+    <description><![CDATA[ 统计规律 概念定位 统计规律是大量分子集合的宏观量对其微观量统计平均所遵循的规律；覆盖等几率假设、统计规律性、统计涨落与力学决定论的区分，是气体动理论解释宏观量的方法论基础。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 统计规律 的原子点，不手列。 状态日期原子点进行中2026-09-01玻耳兹曼分布律进行中2026-09-01统计规律与等几率假设进行中2026-09-01麦克斯韦速率分布定律 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 统计规律 引用本概念，即自动出现在此表。 file.link理想气体统计规律自由度 相... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
+  </item><item>
+    <title>输运现象</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E8%BE%93%E8%BF%90%E7%8E%B0%E8%B1%A1</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E8%BE%93%E8%BF%90%E7%8E%B0%E8%B1%A1</guid>
+    <description><![CDATA[ 输运现象 概念定位 输运现象是气体在非平衡下通过分子碰撞实现的宏观量（质量、动量、能量）定向传递；覆盖扩散、黏性、热传导三种输运，锚定对应三条原子点，是气体动理论在非平衡领域的延伸。 原子点库（自动重内聚） 由 dataview 自动聚合 原子库 中 concept = 输运现象 的原子点，不手列。 状态日期原子点进行中2026-09-01气体的扩散现象进行中2026-09-01气体的热传导现象进行中2026-09-01气体的黏性现象 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 输运现象 引用本概念，即自动出现在此表。 file.link输运现象气体分子的平均自由程... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
   </item><item>
     <title>随机事件</title>
     <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6</link>
     <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%A6%82%E5%BF%B5%E5%BA%93/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6</guid>
     <description><![CDATA[ 随机事件 概念定位 随机事件是样本空间的子集：一次试验中”发生”与否不确定、但规则清楚的复合结果，记作 A,B,C。它覆盖：子集定义、必然事件与不可能事件、基本事件、以及事件之间的关系与运算（包含/相等/并/交/互斥/对立/差）与德摩根律。 原子点库（自动重内聚） 下方由 dataview 自动聚合，从 原子库 拉取 concept = 随机事件 的全部原子点，不手列。 状态日期原子点进行中2026-09-01随机事件进行中2026-09-01随机事件的关系与运算 引用本概念的主题笔记与文章（自动反链） 主题笔记或 笔记库 的文章凡用 随机事件 引用本概念，即自动出现在此表。 file.lin... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
   </item><item>
-    <title>00-说明</title>
-    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/00-%E8%AF%B4%E6%98%8E</link>
-    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/00-%E8%AF%B4%E6%98%8E</guid>
-    <description><![CDATA[ 笔记库 · 使用说明 本库存放主题索引：按一个主题/角度，把分散在 00-知识库/原子库/ 的原子分点索引出来——只列不展开、不做叙事成文。它是三库中的”导航层” —— 原子点是内容本体，概念页把原子点按”属于谁”装箱，本库把原子点按”哪个主题”拢到货架上。 主题索引 ≠ 概念 —— 分界铁律 概念（概念库）＝名词本体/分类锚点：一个既定名词（如 特征阻抗、反射、串扰），只聚合导航，不写叙事正文。回答”这个概念有哪些点”。 主题索引（本库）＝聚合入口/货架：按一个主题/角度把相关原子点列出来，只列不展开。回答”这个主题拢了哪些点”。讲清道理靠原子点自身的”讲懂型正文”与概念聚合，不再额外写一篇... ]]></description>
-    <pubDate>Tue, 01 Sep 2026 06:24:18 GMT</pubDate>
+    <title>大学物理下册目录</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C%E7%9B%AE%E5%BD%95</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E5%86%8C%E7%9B%AE%E5%BD%95</guid>
+    <description><![CDATA[ 大学物理下册 · 目录 罗圆圆《大学物理学》下册：热学、振动与波动、波动光学、量子物理（第 11–16 章）。 概念页在 00-知识库/概念库/、原子点在 00-知识库/原子库/，多未建立，建到即通。 第十一章 气体动理论 气体动理论的基本概念（已建 4 条原子点） 平衡态 状态参量 理想气体微观模型假设 统计规律与等几率假设 平衡态理想气体物态方程（已建） 理想气体的压强公式（已建） 理想气体的温度公式（已建） 能量按自由度均分原理（已建） 理想气体的内能（已建） 麦克斯韦速率分布定律（已建） 玻耳兹曼分布律（已建） 气体分子的平均自由程（已建） 气体的输运现象（已建 3 条原子点） 气体的... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
+  </item><item>
+    <title>000-目录</title>
+    <link>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/000-%E7%9B%AE%E5%BD%95</link>
+    <guid>https://2139211935.github.io/hello-world/00-%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%AC%94%E8%AE%B0%E5%BA%93/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/000-%E7%9B%AE%E5%BD%95</guid>
+    <description><![CDATA[ 概率论与数理统计 · 目录 盛骤《概率论与数理统计》：从随机现象的公理化概率出发，到随机变量的分布与数字特征，再经大数定律/中心极限定理过渡到数理统计的抽样、估计与检验（第 1–8 章，第 9 章为可选拓展）。 概念页在 00-知识库/概念库/、原子点在 00-知识库/原子库/，多未建立，建到即通。 第一章 概率论的基本概念 随机事件与样本空间（基本概念，已建） 随机现象与随机试验（已建） 样本空间（已建） 随机事件（已建） 随机事件的关系与运算（已建） 频率与概率（计划） 等可能概型（古典概型）（计划） 条件概率（计划） 全概率公式与贝叶斯公式（计划） 事件的独立性（计划） 第二章 随机变量... ]]></description>
+    <pubDate>Tue, 01 Sep 2026 06:29:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
